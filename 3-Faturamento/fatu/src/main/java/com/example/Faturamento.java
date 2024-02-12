@@ -16,7 +16,7 @@ public class Faturamento {
     public static void main(String[] args) {
         try {
             // Ler o conteúdo do arquivo JSON como uma string
-            String jsonContent = new String(Files.readAllBytes(Paths.get("3-Vetor\\faturamento\\src\\main\\java\\com\\example\\dados.json")));
+            String jsonContent = new String(Files.readAllBytes(Paths.get("3-Faturamento\\fatu\\src\\main\\java\\com\\example\\dados.json")));
 
             // Inicializar o JSONArray com a string JSON
             JSONArray faturamento = new JSONArray(jsonContent);
